@@ -1,7 +1,0 @@
-FROM node:14
-WORKDIR \app
-COPY package.json .
-RUN npn install
-COPY . .
-EXPOSE 30000
-CMD ["node","app.mjs"]
