@@ -1,6 +1,0 @@
-{
-"dependencies" :{ "express":"*" },
-"scripts": {
-    "start": "index.js"
-}
-}
